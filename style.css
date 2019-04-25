@@ -1,0 +1,304 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+.fix { overflow: hidden }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+html,
+body { height: 100% }
+
+
+.test {font-family: 'Lato', sans-serif;}
+a {
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    color: #333;
+}
+a:hover { text-decoration: none }
+
+
+.full-area{
+    width: 100%;
+    height: 100%;
+    background-image: url("img/cover.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo-text{
+	z-index: 1;
+	 position: fixed;
+    margin-top: 30px;
+}
+
+.logo-text h1{
+      position: sticky;
+    position: sticky;
+    font-family: initial;
+    color: aqua;
+    font-size: 40px;
+    float: left;
+}
+.logo-text h2{
+     color: antiquewhite;
+    font-size: 40px;
+    float: left;
+}
+.logo-text h3{
+    margin-left: 4px;
+  
+    color: #37d81c;
+    font-size: 40px;
+    float: left;
+}
+.logo-text p{
+    font-size: 20px;
+    color: #26ff42;
+    font-family: 'Lobster', cursive;
+    padding-left: 79px;
+}
+
+
+.menu-var{
+	
+
+	background-color: red;
+}
+
+.menu ul li:hover{
+
+	background-color: red;
+}
+.menu{
+	z-index: 1;
+	 position: fixed;
+    margin-top: 30px;
+    float: right;
+}
+.menu ul{
+
+}
+.menu ul li{
+    
+    float: left;
+    list-style: none;
+    padding: 10px 20px;
+    margin-left: 9px;
+}
+.menu ul li a{
+	font-weight: 900;
+    font-size: 17px;
+    text-decoration: none;
+    color: #caff00;
+}
+.menu ul li a:hover{
+    padding-top: 3px;
+    text-decoration: overline;
+    color: #0029ff;
+}
+
+.menu-text{
+   
+    margin-top: 18%;
+    color: #ffff;
+    text-align: center;
+    float: right;
+}
+.menu-text h1{
+
+    font-size: xx-large;
+    font-family: fantasy;
+}
+.menu-text span{
+   letter-spacing: 4px;
+    color: #26ff42;
+}
+.menu-text p{
+    font-size: 18px;
+    color: black;
+    font-family: cursive;
+    font-weight: 700;
+}
+
+
+.dive-text{
+
+    padding: 30px;
+    padding-top: 100px;
+}
+.dive-text p{
+    color: #fff;
+    font-family: cursive;
+    font-size: 35px;
+}
+.dive-text p span{
+    font-weight: 900;
+    color: #26ff42;
+}
+
+
+
+
+.imge-area img{
+    margin-bottom: 100px;
+    opacity: .5;
+    width: 100%;
+    height: 300px;
+  
+}
+
+
+
+.all-food{
+    background-color: #3e3f42;
+}
+
+.imge-area{
+    position: relative;
+}
+
+.img-food-text{
+    color: #fff;
+    position: absolute;
+    left: 0;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+
+.img-food-text{}
+.img-food-text a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 900;
+    background-color: #00d3ff;
+    padding: 3px 14px;
+    border-radius: 13px;
+    line-height: 3;
+}
+.img-food-text h1{
+    color: #00ff8b;
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+}
+
+.meal-of-day{
+    padding: 30px;
+}
+.meal-of-day h1{
+   font-family: 'Courgette', cursive;
+}
+
+.sup-img img{
+    height: 100%;
+    width: 100%;
+}
+
+.soup-order-area{
+    margin: 50px;
+}
+.soup-text h4{
+    font-size: 21px;
+    font-family: inherit;
+    color: #a4b821;
+    margin-top: 16px;
+}
+.soup-text p{
+    text-align: justify;
+    width: 258px;
+        color: #909898;
+    font-style: oblique;
+}
+.soup-text a{
+    line-height: 4;
+    border-radius: 8px;
+    font-size: 13px;
+    color: #fff;
+    background-color: #737d0e;
+    padding: 9px 37px;
+    text-decoration: none;
+}
+
+.service-area h4{
+    word-spacing: -5px;
+    font-size: 28px;
+    font-family: cursive;
+    font-style: italic;
+}
+.service-area h4 span{
+    color: #46bd21;
+}
+
+.V-text h1{
+    border-radius: 8px;
+    padding: 4px 8px;
+    background-color: #737d0e;
+    font-size: 21px;
+    float: left;
+    color: #ffff;
+    margin-right: 9px;
+}
+
+.V-text p{
+    color: gray;
+    text-align: justify;
+}
+.v-sub-text {
+    padding-bottom: 30px;
+}
+.v-sub-text ul li{
+    list-style-type; 
+    list-style: circle;
+    color: gray;
+    line-height: 2;
+}
+
+.feel-img img{
+    margin-bottom: 20px;
+    width: 100%;
+    height: 146px;
+}
+
+.gogole-map{
+    padding: 30px;
+}
+
+.foter-img img{
+    width: 100%;
+    margin-bottom: 30px;
+    height: 100px;
+}
+
+.foter{
+  font-size: 13px;
+    padding: 20px;
+    background-color: #0017ff;
+    color: #fff;
+}
+}
